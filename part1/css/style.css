@@ -332,6 +332,43 @@ a:active {
 .documents > li + li {
   margin-top: 25px;
 }
+.documents > li ul {
+  margin: 15px;
+}
+.documents > li ul > li {
+  margin-bottom: 15px;
+  padding-left: 10px;
+  background: url("../images/arrow.gif") no-repeat left center;
+}
+.documents a:hover {
+  text-decoration: underline;
+}
+
+.search-box {
+  padding: 15px;
+  background-color: #ccc;
+  font-size: 0;
+}
+.search-box > * {
+  font-size: 1.2rem;
+}
+.search-box .search-input {
+  width: 205px;
+  height: 26px;
+  padding: 0 10px;
+  border: none;
+}
+.search-box .search-button {
+  width: 40px;
+  height: 26px;
+  border: none;
+  background-color: #d03c56;
+  color: #fff;
+  cursor: pointer;
+}
+.search-box .text {
+  margin-top: 12px;
+}
 
 /* フッター */
 .footer {
