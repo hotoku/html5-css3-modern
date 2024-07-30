@@ -277,6 +277,7 @@ a:active {
   vertical-align: top;
   font-size: 1.2rem;
   line-height: 1.5;
+  margin-left: 10px;
 }
 .ranking-item .order {
   display: inline-block;
@@ -288,7 +289,12 @@ a:active {
   text-align: center;
   font-weight: bold;
   line-height: 16px;
-  transform: rotate(45deg);
+  border-radius: 9px;
+}
+.image-box .order {
+  position: absolute;
+  right: -15px;
+  top: -5px;
 }
 .ranking-item:nth-of-type(1) .order,
 .ranking-item:nth-of-type(2) .order,
@@ -312,7 +318,10 @@ a:active {
   counter-increment: ranking;
   display: inline-block;
   font-size: 1rem;
-  transform: rotate(-45deg);
+}
+.ranking-item .image-box {
+  display: inline-block;
+  position: relative;
 }
 
 .documents {
